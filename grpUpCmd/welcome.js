@@ -14,8 +14,8 @@ module.exports = {
       } catch (error) {
         profilePicUrl = null;
       }
-        
-        
+
+
 
       const username = `@${member.split('@')[0]}`;
       const welcomeMessage = `🎉✨ *Hey ${username}, Welcome to ${groupName}!* ✨🎉\n\n` +
@@ -35,10 +35,6 @@ module.exports = {
           mentions: [member]
         });
       }
-    }
-  }
-};
-    }
     }
   }
 };
